@@ -16,7 +16,7 @@ $(function () {
   });
 
   $('.shopping-list').on('click', '.shopping-item-delete', function () {
-    $(this).closest('li').hide('');
+    $(this).closest('li').remove();
   });
 
 
